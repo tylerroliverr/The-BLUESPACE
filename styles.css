@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 10px;
+    color: #1842D6;
+}
+
+.wrapper {
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    margin-top: auto;
+    font-size: 0.6rem;
+    font-style: italic;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.small-text {
+    font-size: 0.6rem;
+}
+
+span {
+    font-size: 0.7rem;
+}
